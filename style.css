@@ -7,20 +7,22 @@
 body{
     background-image: url(sheree.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
 }
-h1{
-        font-size: 4rem;
-        font-weight: 500;
-        margin-bottom: 20px;
+
+.hero{
+    text-align: center;
 }
 
 .timebox{
-    display: flex;  
-    flex-direction: row;
-    justify-content: left;
-    align-items: left;
+    display: flex;
+    justify-content: center;
     gap: 90px;
 }
 
