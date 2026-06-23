@@ -26,5 +26,12 @@ function timer () {
         Seconds.innerHTML = "00";
     }
 }
+const showBtn = document.getElementById("showBtn");
+const surpriseImage = document.getElementById("surpriseImage");
+const birthdayMessage = document.getElementById("birthdayMessage");
 
+showBtn.addEventListener("click", () => {
+    surpriseImage.style.display = "block";
+    birthdayMessage.style.display = "block";
+});
 setInterval(timer, 1000);
