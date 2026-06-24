@@ -1,37 +1,50 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-body{
+
+body {
     background-image: url(sheree.jpg);
     background-repeat: no-repeat;
+    background-size: cover;        
+    background-position: center;
+    min-height: 100vh;            
     display: flex;
     flex-direction: column;
-}
-h1{
-        font-size: 4rem;
-        font-weight: 500;
-        margin-bottom: 20px;
+    align-items: flex-start;       
+    padding: 20px;                
 }
 
-.timebox{
-    display: flex;  
+h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.timebox {
+    display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items: left;
+    justify-content: flex-start;   
+    align-items: flex-start;      
     gap: 90px;
+    margin-bottom: 20px;           
 }
 
-.time{
+.time {
     text-align: center;
 }
-.time h2{
+
+.time h2 {
     font-size: 5rem;
     font-weight: 100;
-
 }
-button{
-    width: 15%;
+
+button {
+    width: auto;                   
+    padding: 8px 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    cursor: pointer;
 }
